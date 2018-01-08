@@ -25,4 +25,23 @@
         <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
     </style>
 
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/cardview_shadow_end_color</item>
+        <item name="colorPrimaryDark">@color/cardview_shadow_start_color</item>
+        <item name="colorAccent">@color/black_red</item>
+    </style>
+
+    <style name="exp_toolbar_title" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">36dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="coll_toolbar_title" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textSize">20dp</item>
+    <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>

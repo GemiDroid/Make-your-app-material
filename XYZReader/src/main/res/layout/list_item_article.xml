@@ -16,7 +16,8 @@
         android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
-        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+        <ImageView
+            android:transitionName="profile"
             android:id="@+id/thumbnail"
             android:scaleType="fitXY"
             android:layout_width="match_parent"
@@ -24,6 +25,7 @@
             android:background="@color/photo_placeholder" />
 
         <TextView
+            android:transitionName="title"
             android:id="@+id/article_title"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
@@ -37,6 +39,7 @@
             android:maxLines="4" />
 
         <TextView
+            android:transitionName="body"
             android:id="@+id/article_subtitle"
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
