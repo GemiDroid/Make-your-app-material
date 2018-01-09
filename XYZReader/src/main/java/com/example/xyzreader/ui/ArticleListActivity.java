@@ -82,7 +82,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_article_list);
 
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+      mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
         setSupportActionBar(mToolbar);
 
@@ -92,17 +92,19 @@ public class ArticleListActivity extends AppCompatActivity implements
         ctb.setCollapsedTitleTextAppearance(R.style.coll_toolbar_title);
         ctb.setExpandedTitleTextAppearance(R.style.exp_toolbar_title);*/
 
+
         AppBar = (AppBarLayout) findViewById(R.id.AppBar);
 
 
         ctb = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         ctb.setScrimsShown(true);
-        ctb.setTitle(getString(R.string.app_name));
+       // ctb.setTitle(getString(R.string.app_name));
         ctb.setExpandedTitleColor(getResources().getColor(android.R.color.darker_gray));
         ctb.setCollapsedTitleTextColor(getResources().getColor(R.color.black_red));
         ctb.setContentScrim(getResources().getDrawable(R.drawable.logo));
 
-        AppBar.setExpanded(true);
+
+      //  AppBar.setExpanded(false);
 
 
 

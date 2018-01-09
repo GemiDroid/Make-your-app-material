@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Make-your-app-material.iml" filepath="$PROJECT_DIR$/Make-your-app-material.iml" />
+      <module fileurl="file://C:\Users\pc\StudioProjects\Make-your-app-material\Make-your-app-material.iml" filepath="C:\Users\pc\StudioProjects\Make-your-app-material\Make-your-app-material.iml" />
       <module fileurl="file://$PROJECT_DIR$/XYZReader/XYZReader.iml" filepath="$PROJECT_DIR$/XYZReader/XYZReader.iml" />
+      <module fileurl="file://C:\Users\pc\StudioProjects\Make-your-app-material\XYZReader\XYZReader.iml" filepath="C:\Users\pc\StudioProjects\Make-your-app-material\XYZReader\XYZReader.iml" />
       <module fileurl="file://E:\Smartech Android\Make-your-app-material\xyz-reader-starter-code.iml" filepath="E:\Smartech Android\Make-your-app-material\xyz-reader-starter-code.iml" />
     </modules>
   </component>
