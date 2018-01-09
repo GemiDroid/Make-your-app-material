@@ -98,13 +98,13 @@ public class ArticleListActivity extends AppCompatActivity implements
 
         ctb = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         ctb.setScrimsShown(true);
-       // ctb.setTitle(getString(R.string.app_name));
+     // ctb.setTitle(getString(R.string.app_name));
         ctb.setExpandedTitleColor(getResources().getColor(android.R.color.darker_gray));
         ctb.setCollapsedTitleTextColor(getResources().getColor(R.color.black_red));
         ctb.setContentScrim(getResources().getDrawable(R.drawable.logo));
 
 
-      //  AppBar.setExpanded(false);
+     AppBar.setExpanded(true);
 
 
 
