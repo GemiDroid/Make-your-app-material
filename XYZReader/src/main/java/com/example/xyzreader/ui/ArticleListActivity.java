@@ -82,9 +82,9 @@ public class ArticleListActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_article_list);
 
 
-      mToolbar = (Toolbar) findViewById(R.id.toolbar);
+     /* mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
-        setSupportActionBar(mToolbar);
+        setSupportActionBar(mToolbar);*/
 
 
         /* ctb = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
@@ -93,7 +93,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         ctb.setExpandedTitleTextAppearance(R.style.exp_toolbar_title);*/
 
 
-        AppBar = (AppBarLayout) findViewById(R.id.AppBar);
+    /*    AppBar = (AppBarLayout) findViewById(R.id.AppBar);
 
 
         ctb = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
@@ -104,7 +104,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         ctb.setContentScrim(getResources().getDrawable(R.drawable.logo));
 
 
-     AppBar.setExpanded(true);
+     AppBar.setExpanded(true);*/
 
 
 

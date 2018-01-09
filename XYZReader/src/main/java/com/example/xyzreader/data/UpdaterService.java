@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.os.RemoteException;
 import android.text.format.Time;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.example.xyzreader.remote.RemoteEndpointUtil;
 
@@ -40,6 +41,7 @@ public class UpdaterService extends IntentService {
         NetworkInfo ni = cm.getActiveNetworkInfo();
         if (ni == null || !ni.isConnected()) {
             Log.w(TAG, "Not online, not refreshing.");
+            Toast.makeText(this, "Not online, not refreshing.", Toast.LENGTH_SHORT).show();
             return;
         }
 
