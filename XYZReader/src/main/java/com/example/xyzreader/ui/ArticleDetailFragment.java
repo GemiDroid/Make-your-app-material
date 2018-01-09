@@ -179,10 +179,9 @@ public class ArticleDetailFragment extends Fragment implements
 
      //   getActivityCast().getSupportActionBar().setHomeButtonEnabled(true);
 
-        toolbar.setOnClickListener(new View.OnClickListener() {
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 getActivityCast().onNavigateUp();
             }
         });
