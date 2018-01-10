@@ -136,7 +136,7 @@
         android:layout_marginBottom="@dimen/fab_margin"
         app:fabSize="normal"
         android:layout_width="wrap_content"
-        app:elevation="@dimen/cardview_default_elevation"
+        app:elevation="@dimen/fab_press_translation_z"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_share"
         android:contentDescription="@string/action_share" />
