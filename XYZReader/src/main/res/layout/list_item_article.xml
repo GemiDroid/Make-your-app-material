@@ -16,7 +16,7 @@
         android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
-        <ImageView
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:transitionName="profile"
             android:id="@+id/thumbnail"
             android:scaleType="fitXY"

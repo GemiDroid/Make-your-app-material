@@ -36,8 +36,7 @@
                     app:layout_collapseMode="parallax"
                     android:transitionName="profile"
                     android:id="@+id/thumbnail"
-                    android:scaleType="fitXY"
-
+                    android:scaleType="centerCrop"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/detail_photo_height"
                      />
@@ -114,8 +113,8 @@
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/cardview_default_radius"
-                    android:layout_marginRight="@dimen/cardview_default_radius"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:layout_marginRight="@dimen/fab_margin"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
                     android:textColor="@color/white_blue"
                     android:textColorLink="@color/theme_accent"

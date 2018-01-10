@@ -36,11 +36,9 @@
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/AppBar"
-
         android:layout_height="320dp"
         android:layout_width="match_parent"
-        android:fitsSystemWindows="true"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:fitsSystemWindows="true">
 
 
 <!--    <android.support.design.widget.CollapsingToolbarLayout
@@ -67,7 +65,7 @@
                 android:id="@+id/toolbar"
                 app:collapseIcon="@drawable/logo"
                 app:buttonGravity="top"
-                android:gravity="top|center|start"
+                android:gravity="top|center|DynamicHeightNetworkImageViewstart"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:paddingTop="12dp"

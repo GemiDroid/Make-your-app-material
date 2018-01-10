@@ -9,6 +9,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.RemoteException;
+import android.support.design.widget.Snackbar;
 import android.text.format.Time;
 import android.util.Log;
 import android.widget.Toast;
@@ -42,6 +43,7 @@ public class UpdaterService extends IntentService {
         if (ni == null || !ni.isConnected()) {
             Log.w(TAG, "Not online, not refreshing.");
             Toast.makeText(this, "Not online, not refreshing.", Toast.LENGTH_SHORT).show();
+         //   Snackbar.make(, "Not online, not refreshing.", Snackbar.LENGTH_SHORT).show();
             return;
         }
 

@@ -27,4 +27,10 @@
     <color name="grey">#544f4f</color>
     <color name="grey_300">#300</color>
     <color name="black_transparent_0">#000</color>
+
+    <color name="primaryColor">#2e7d32</color>
+    <color name="primaryLightColor">#60ad5e</color>
+    <color name="primaryDarkColor">#005005</color>
+    <color name="primaryTextColor">#ffffff</color>
+
 </resources>
