@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:theme="@style/Theme.Bacon"
+            android:theme="@style/AppTheme"
             android:name=".ui.ArticleDetailActivity"
             android:parentActivityName=".ui.ArticleListActivity">
             <intent-filter>

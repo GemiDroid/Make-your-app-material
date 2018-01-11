@@ -175,7 +175,7 @@ public class ArticleDetailFragment extends Fragment implements
         toolbar= (Toolbar) mRootView.findViewById(R.id.toolbar);
         //toolbar.setLogo(R.drawable.logo);
 
-        getActivityCast().setSupportActionBar(toolbar);
+//        getActivityCast().setSupportActionBar(toolbar);
 
      //   getActivityCast().getSupportActionBar().setHomeButtonEnabled(true);
 
