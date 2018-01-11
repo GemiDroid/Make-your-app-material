@@ -27,11 +27,18 @@
 
 
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
         <item name="colorAccent">@color/primaryLightColor</item>
         <item name="windowActionBar">true</item>
+    </style>
+
+    <style name="textStyle" parent="android:TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
+
     </style>
 
     <style name="exp_toolbar_title" parent="@android:style/TextAppearance.Holo.Medium">
